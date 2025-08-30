@@ -1,0 +1,22 @@
+.container{
+    margin: 0 auto;
+    height: 500px;
+    width: 500px;
+    border: black;
+    background-color: aqua;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.box{
+    height: 10%;
+    width: 30%;
+    border: 2px solid white;
+    background-color: yellow;
+    text-align: center;
+    align-content: center;
+}

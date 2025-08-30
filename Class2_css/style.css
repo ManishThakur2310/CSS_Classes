@@ -1,0 +1,77 @@
+html {
+    display: flex;
+    justify-content: left;
+}
+
+.head{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    border: 5px solid black;
+    background-color: yellow;
+    position: relative;
+    z-index: -1;
+    
+}
+
+.lefteye{
+    height: 45px;
+    width: 35px;
+    border-radius: 80%;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    
+}
+
+.righteye{
+    height: 45px;
+    width: 35px;
+    border-radius: 80%;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    top: 50px;
+    right: 30px;
+    
+}
+
+.lefteyeball{
+    height: 15px;
+    width: 15px;
+    border-radius: 80%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    top: 20px;
+    left: 12px;
+    
+}
+
+.righteyeball{
+    height: 15px;
+    width: 15px;
+    border-radius: 80%;
+    background-color: rgb(255, 255, 255);
+    z-index: 1;
+    position: relative;
+    top: 20px;
+    left: 12px;
+    
+}
+
+.smile{
+    height: 40px;
+    width: 100px;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    background-color: black;
+    z-index: 1;
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+}
