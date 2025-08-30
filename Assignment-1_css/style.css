@@ -1,0 +1,431 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-nav {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0 auto;
+    position: fixed;
+}
+
+.nav-container {
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    position: absolute;
+}
+.courses {
+    margin: 0 auto;
+    padding: 0;
+    display: flex;
+    width: 100%;
+    height: 2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 20px;
+    background-color: #282a35; 
+    color: white;
+    position: absolute;
+    font-family: 'Source Sans Pro Topnav', sans-serif;
+        z-index: 10;
+margin-top: 3em;
+
+
+}
+
+
+
+
+
+
+.navbar {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+}
+
+.left-navbar {
+    width: 40%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+
+}
+
+#search-icon-1 {
+    position: relative;
+}
+
+.img-icon {
+    position: absolute;
+    bottom: 5px;
+    right: 8px;
+}
+
+.right-navbar {
+    width: 45%;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: center;
+
+}
+
+.class-navitems {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+}
+
+#search {
+    border: 1px solid black;
+    width: 150px;
+    height: 25px;
+    border-radius: 25px;
+    padding: 5px 40px 5px 15px;
+}
+
+.theme {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+.spaces {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+.teachers {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+.upgrade {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    position: relative;
+    flex-wrap: wrap;
+
+}
+
+.get {
+    margin: 0 auto;
+    display: flex;
+    text-align: center;
+    position: relative;
+}
+
+.signin {
+    background-color: rgb(6, 175, 99);
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.button {
+    background-color: rgb(6, 175, 99);
+    width: 100px;
+    gap: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    color: white;
+}
+
+
+
+.page1 {
+    margin: 0 auto;
+    padding: 100px;
+    width: 100%;
+    height: 100%;
+    background-color: #282a35;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.heading {
+    margin: 0 auto;
+    padding: 100px;
+    text-align: center;
+    font-size: xx-large;
+
+}
+
+#search2 {
+    width: 500px;
+    border: 1px solid black;
+    height: 45px;
+    border-radius: 25px;
+    padding: 5px 40px 5px 15px;
+    font-weight: bold;
+}
+
+.page2 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(217, 238, 225);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.page2-left {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.page-2-heading {
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.boxes {
+    padding: 8px;
+    border: none;
+    text-align: center;
+}
+
+.page2-right {
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+}
+
+.page3 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(255, 244, 163);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.page3-left {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.page-3-heading {
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.page3-right {
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+
+}
+
+.page4 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(40, 42, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.page4-left {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.page-4-heading {
+    color: white;
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.page4-right {
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: rgb(231, 233, 235);
+
+}
+
+.page5 {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(243, 236, 234);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10%;
+    font-family: 'Source Sans Pro', sans-serif;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.page5-left {
+    padding-top: 100px;
+    text-align: center;
+}
+
+.page-5-heading {
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.page5-right {
+    width: 400px;
+    padding-top: 20px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    background-color: rgb(231, 233, 235);
+
+}
+
+.page6 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #282a35;
+    padding-top: 50px;
+    padding-bottom: 50px;
+
+}
+
+.bigcards-left {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.card1 {
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+    background-color: palevioletred;
+    border-radius: 10%;
+    margin-bottom: 30px;
+}
+
+.card2 {
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+    background-color: rgb(244, 255, 147);
+    border-radius: 10%;
+
+}
+
+.bigcards-right {
+    width: 35%;
+    margin: 0 auto;
+}
+
+.card3 {
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+    background-color: rgb(255, 208, 200);
+    border-radius: 10%;
+    margin-bottom: 30px;
+
+}
+
+.card4 {
+    height: 150px;
+    text-align: center;
+    padding: 50px;
+    border: 1px solid black;
+    background-color: rgb(193, 255, 233);
+    border-radius: 10%;
+
+}
+
+.page7 {
+    background-color: rgb(217, 238, 225);
+    padding-top: 50px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20px;
+
+}
+
+.footer {
+    background-color: rgb(40, 42, 53);
+    padding-top: 50px;
+    text-align: center;
+}
+
+.footer1 {
+    padding-top: 50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+    color: rgb(255, 244, 163);
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.footer2 {
+    color: white;
+    margin: 0 auto;
+    padding: 50px;
+    display: flex;
+    font-size: large;
+    gap: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Source Sans Pro', sans-serif;
+}
